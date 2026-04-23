@@ -21,7 +21,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`p-2 hidden md:flex justify-around items-center transition-all  w-full ${isScrolled && "fixed border w-full top-0 duration-200 bg-white z-50"}`}
+      className={`p-2 hidden md:flex justify-around items-center transition-all  w-full ${isScrolled && "fixed border w-full top-0 duration-300 bg-white z-50"}`}
     >
       <a
         href="/"

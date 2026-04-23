@@ -2,7 +2,7 @@ import Routes from "./routes/routes-config";
 
 export function App() {
   return (
-    <div className="">
+    <div className="bg-primary/5">
       <Routes />
     </div>
   );
