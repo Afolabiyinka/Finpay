@@ -3,18 +3,18 @@ import { motion } from "framer-motion";
 
 const Learn = () => {
   return (
-    <div className="h-full flex justify-center items-center p-3">
+    <div className="h-full flex justify-center items-center p-4 md:p-16">
       <motion.div
         initial={{ scale: 0.9 }}
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.7 }}
         exit={{ scale: 0.9 }}
         viewport={{ amount: 0.6 }}
-        className="md:h-[80vh] w-full bg-white shadow  rounded-xl flex  gap-6 flex-col p-4 md:p-16"
+        className="md:h-[80vh] w-full bg-[#023347] text-white  rounded-xl flex  gap-6 flex-col p-8 md:p-16"
       >
         <span className="h-full md:h-1/2 w-full">
-          <p className="text-primary text-2xl mb-3">STEP</p>
-          <h1 className="text-xl md:text-4xl">
+          <p className="text-primary text-xl mb-3">STEP</p>
+          <h1 className="text-md md:text-4xl">
             Maximise your account returns with a reserve account with a <br />{" "}
             Reserve account that generates .
           </h1>
@@ -27,7 +27,7 @@ const Learn = () => {
           />
           <LearningCard
             step={2}
-            title="Tranfer your money"
+            title="Transfer your money"
             desc="Move money from to another account into finpay and start earning up"
           />
           <LearningCard

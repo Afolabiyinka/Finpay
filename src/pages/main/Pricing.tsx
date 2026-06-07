@@ -12,17 +12,17 @@ const Pricing = () => {
           Hundreds of all sizes and across all industries <br /> have made big
           improvements with us .
         </p>
-        <div className="flex flex-col md:flex-row gap-20 mt-10">
+        <div className="flex flex-col md:flex-row md:gap-20 gap-10  mt-10">
           <span>
-            <h1 className="text-5xl">24%</h1>
+            <h1 className="md:text-5xl text-3xl">24%</h1>
             <p className="text-sm">Revenue business</p>
           </span>
           <span>
-            <h1 className="text-5xl">180k</h1>
+            <h1 className="md:text-5xl text-3xl">180k</h1>
             <p className="text-sm">In annual revenue</p>
           </span>
           <span>
-            <h1 className="text-5xl">10+</h1>
+            <h1 className="md:text-5xl text-3xl">10+</h1>
             <p className="text-sm">Months of runaway</p>
           </span>
         </div>

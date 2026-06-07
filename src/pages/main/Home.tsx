@@ -9,6 +9,10 @@ import creditImage from "@/assets/undraw_transfer-money_h9s3.svg";
 import { motion } from "framer-motion";
 
 const Home = () => {
+
+  const COMPANIES = [
+    "Klarna.", "coinbase", "instacart"
+  ]
   return (
     <div className="h-full flex flex-col md:flex-row w-full justify-center items-center md:p-20">
       <div className="w-full md:max-w-2xl  h-full flex flex-col justify-center p-5">
@@ -52,7 +56,7 @@ const Home = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <InputGroup className="">
-            <InputGroupInput placeholder="Your business email" />
+            <InputGroupInput placeholder="Your business email" className="text-sm" />
 
             <InputGroupAddon align="inline-end">
               <Button size={`lg`}>
@@ -62,7 +66,11 @@ const Home = () => {
           </InputGroup>
         </motion.span>
 
-        <div className="w-full p-6 bg-muted-foreground/10 animate-pulse mt-7 rounded-full"></div>
+        <div className="w-full p-2  mt-7 items-center gap-10  rounded-full flex">
+          {COMPANIES.map((company) => (
+            <span className="md:text-2xl text-xl font-extrabold tracking-tight font-mono">{company}</span>
+          ))}
+        </div>
       </div>
       <div className="w-full md:w-1/2 h-full flex justify-center items-center">
         <img

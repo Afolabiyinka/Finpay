@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface Props {
@@ -21,7 +21,7 @@ const PricingCard = ({ price, title, type }: Props) => {
         <p>{price}</p>
 
         <span className="bg-primary hover:p-2 h-14 w-14 flex justify-center items-center cursor-pointer rounded-2xl group-[translate-x-12]:hover overflow-hidden shadow">
-          <ArrowRight
+          <ArrowUpRight
             size={40}
             className="stroke-[1px]  hover:text-white hover:stroke-[2px] transition-all duration-1000"
           />

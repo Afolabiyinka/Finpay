@@ -21,7 +21,7 @@ const FeaturesCard = ({ desc, icon: Icon, title }: Props) => {
       <Icon size={50} className="stroke-[1px]" />
       <span>
         <h1 className="text-xl font-bold mb-2">{title}</h1>
-        <p className="text-lg leading-relaxed text-muted-foreground">{desc}</p>
+        <p className="text-md leading-relaxed text-muted-foreground">{desc}</p>
       </span>
     </motion.div>
   );

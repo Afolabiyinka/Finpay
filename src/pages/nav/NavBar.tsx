@@ -21,11 +21,11 @@ const NavBar = () => {
 
   return (
     <div
-      className={`p-2 hidden md:flex justify-around items-center transition-all  w-full ${isScrolled && "fixed border w-full top-0 duration-300 bg-white z-50"}`}
+      className={`p-2 hidden md:flex justify-around items-center transition-all  w-full ${isScrolled && "fixed  w-full top-0 duration-300 bg-white z-50"}`}
     >
       <a
         href="/"
-        className="flex items-center gap-1 tracking-widest font-bold text-xl shadow px-8 p-2 rounded-2xl"
+        className="flex items-center gap-1 tracking-widest font-bold text-xl px-8 p-2 rounded-2xl"
       >
         <Wallet fill="teal" />
         FinPay
@@ -36,7 +36,7 @@ const NavBar = () => {
             key={link.path}
             to={link.path}
             className={({ isActive }) =>
-              `${isActive && "underline underline-offset-4"}`
+              `${isActive ? "text-foreground" : "text-muted-foreground"}`
             }
           >
             {link.title}

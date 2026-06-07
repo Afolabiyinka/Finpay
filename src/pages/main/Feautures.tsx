@@ -11,12 +11,12 @@ const Feautures = () => {
         transition={{ duration: 0.7 }}
         exit={{ scale: 0.9 }}
         viewport={{ amount: 0.6 }}
-        className="bg-white w-full p-6 md:p-16 rounded-xl"
+        className="bg-white w-full p-6 md:p-16 rounded-xl shadow-lg"
       >
         <div className=" w-full flex flex-col md:flex-row justify-between items-center p-2 mb-10">
           <span className="w-full">
             <p className="text-primary text-xl mb-4">FUTURE PAYMENT</p>
-            <h1 className=" text-2xl md:text-4xl font-semibold">
+            <h1 className=" text-2xl md:text-4xl font-bold">
               Experience that grows <br /> with your scale
             </h1>
           </span>
@@ -27,6 +27,7 @@ const Feautures = () => {
             </p>
           </span>
         </div>
+
         <div className="grid md:grid-cols-3 gap-4 md:gap-16">
           <FeaturesCard
             icon={CreditCard}
