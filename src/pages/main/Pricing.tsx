@@ -4,8 +4,10 @@ const Pricing = () => {
   return (
     <div className="h-full w-full flex flex-col justify-center items-center  p-4">
       <div className="text-center mb-6">
-        <p className="text-primary mt-8">OUR MISSION</p>
-        <h2 className="text-4xl font-semibold mb-3">
+        <p className="text-primary mt-8 font-extrabold tracking-wider">
+          OUR MISSION
+        </p>
+        <h2 className="text-4xl mb-3 font-bold">
           We've helped <br /> innovative companies
         </h2>
         <p className="text-gray-600">
@@ -14,16 +16,16 @@ const Pricing = () => {
         </p>
         <div className="flex flex-col md:flex-row md:gap-20 gap-10  mt-10">
           <span>
-            <h1 className="md:text-5xl text-3xl">24%</h1>
-            <p className="text-sm">Revenue business</p>
+            <h1 className="md:text-5xl text-3xl font-bold">24%</h1>
+            <p className="text-sm font-semibold">Revenue business</p>
           </span>
           <span>
-            <h1 className="md:text-5xl text-3xl">180k</h1>
-            <p className="text-sm">In annual revenue</p>
+            <h1 className="md:text-5xl text-3xl font-bold">180k</h1>
+            <p className="text-sm font-semibold">In annual revenue</p>
           </span>
           <span>
-            <h1 className="md:text-5xl text-3xl">10+</h1>
-            <p className="text-sm">Months of runaway</p>
+            <h1 className="md:text-5xl text-3xl font-bold">10+</h1>
+            <p className="text-sm font-semibold">Months of runaway</p>
           </span>
         </div>
       </div>

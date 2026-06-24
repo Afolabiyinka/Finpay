@@ -4,8 +4,10 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div className="h-full w-full flex flex-col  justify-center items-center p-6 md:p-10 bg-white">
-      <p className="text-primary">WHY US</p>
-      <h1 className="text-3xl md:text-4xl mb-10">Why they prefer finpay</h1>
+      <p className="text-primary font-bold">WHY US</p>
+      <h1 className="text-3xl md:text-4xl mb-10 font-extrabold">
+        Why they prefer finpay
+      </h1>
       <div className="max-w-7xl w-[75%]">
         <div className="flex flex-col md:flex-row gap-8 w-full justify-center items-center mb-3">
           <motion.span
